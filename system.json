@@ -37,6 +37,6 @@
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.sanity",
   "url": "https://github.com/riderzerotg/ordem_fvtt",
-  "manifest": "https://raw.githubusercontent.com/riderzerotg/ordem_fvtt/system.json",
+  "manifest": "https://raw.githubusercontent.com/riderzerotg/ordem_fvtt/refs/heads/main/system.json",
   "download": "https://github.com/riderzerotg/ordem_fvtt/archive/refs/heads/main.zip"
 }
