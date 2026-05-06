@@ -1,0 +1,42 @@
+{
+  "id": "ordemfvtt",
+  "title": "Ordem Paranormal",
+  "description": "Teste de sistema de ordem paranormal para o foundry vtt.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12
+  },
+  "authors": [{
+    "name": "riderzerotg",
+    "url": "https://github.com/riderzerotg",
+    "email": "riderzerotg@gmail.com",
+    "discord": "iskandarzero"
+  }],
+  "esmodules": ["module/main.js"],
+  "styles": ["css/ordem.css"],
+  "packs": [{
+    "name": "monsters",
+    "label": "Criaturas",
+    "type": "Actor"
+  },
+  {
+    "name": "items",
+    "label": "Items",
+    "type": "Item"
+  }],
+  "languages": [{
+    "lang": "pt-BR",
+    "name": "Brazilian Portuguese",
+    "path": "lang/pt-BR.json"
+  }],
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.sanity",
+  "url": "https://github.com/riderzerotg/ordem_fvtt",
+  "manifest": "https://raw.githubusercontent.com/riderzerotg/ordem_fvtt/system.json",
+  "download": "https://github.com/riderzerotg/ordem_fvtt/archive/refs/heads/main.zip"
+}
